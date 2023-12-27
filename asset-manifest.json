@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Remote_Page/static/css/main.6a92cd92.css",
+    "main.js": "/Remote_Page/static/js/main.d3f43f1c.js",
+    "index.html": "/Remote_Page/index.html",
+    "main.6a92cd92.css.map": "/Remote_Page/static/css/main.6a92cd92.css.map",
+    "main.d3f43f1c.js.map": "/Remote_Page/static/js/main.d3f43f1c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a92cd92.css",
+    "static/js/main.d3f43f1c.js"
+  ]
+}
