@@ -428,6 +428,8 @@ const colorMode = async () => {
   changeColor()
 
   if (lightMode.current) {
+    document.querySelector('link[rel="icon"]').href = `${process.env.PUBLIC_URL}/favicon.ico`
+    
     document.body.style.backgroundColor = "white";
     document.getElementsByClassName("App")[0].style.color = "black"
     document.getElementsByClassName("header")[0].style.backgroundColor = "#089cfc"
@@ -445,6 +447,8 @@ const colorMode = async () => {
     }
     titleColor.current = 'black'
   } else {
+    document.querySelector('link[rel="icon"]').href = `${process.env.PUBLIC_URL}/favicon-dark.ico`
+
     document.body.style.backgroundColor = "black";
     document.getElementsByClassName("App")[0].style.color = "white"
     document.getElementsByClassName("header")[0].style.backgroundColor = "#c8342c"
