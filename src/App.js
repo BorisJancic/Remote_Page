@@ -24,7 +24,7 @@ function App() {
   const algorithm = useRef("Quick Sort")
   const [windowWidth, setWindowWidth] = useState(window.innerWidth)
   const [windowHight, setWindowHeight] = useState(window.innerHeight)
-  const lightMode = useRef(true)
+  const lightMode = useRef(false)
   const titleColor = useRef('black')
 
   useEffect(() => {
@@ -485,7 +485,13 @@ const colorMode = async () => {
               },},
             ]}
             layout={{width: windowWidth, height: windowHight, title: {text: algorithm.current, font: {size: 25}}, displaylogo: false, xaxis: {visible: false}, yaxis: {visible: false}, bargap: 0, paper_bgcolor:'rgba(0,0,0,0)', plot_bgcolor:'rgba(0,0,0,0)', font: {color:titleColor.current}, margin: { b: 10 }}}
-            config={{displayModeBar: false}}
+            config={{
+              displayModeBar: false,
+              scrollZoom: false,
+              displayModeBar: false,
+              responsive: false,
+              staticPlot: true,
+            }}
         />
         </div>
         <div className='buttons'>
