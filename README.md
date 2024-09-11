@@ -1,3 +1,3 @@
 # View Website [Here](https://borisjancic.github.io/Sorting-Algorithms)
 
-Build using ReactJS and Plotly
+Built using ReactJS and Plotly
